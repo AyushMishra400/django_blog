@@ -22,7 +22,7 @@ RUN pip3 install Pillow
 RUN mkdir /src
 WORKDIR /src
 
-COPY ./src /src
+COPY . /src
 
 EXPOSE 8000
 
