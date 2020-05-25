@@ -24,8 +24,6 @@ COPY . /src/d_blog
 
 WORKDIR /src/d_blog
 
-COPY . /src/d_blog
-
 EXPOSE 8000
 
 CMD ["python3", "manage.py", "runserver", "0.0.0.0:8000"]
